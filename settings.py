@@ -15,6 +15,7 @@ class Settings():
         self.bullets_allowed = 3
 
         self.fleet_drop_speed = 10
+        self.moving_down = True
         
         self.speedup_scale = 1.1
         self.score_scale = 1.5
