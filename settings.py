@@ -14,7 +14,7 @@ class Settings():
         self.bullet_color = (60, 60, 60)
         self.bullets_allowed = 3
 
-        self.fleet_drop_speed = 10
+        self.fleet_drop_speed = 1
         self.moving_down = True
         self.h = 0
         self.star_count = 0
@@ -25,7 +25,7 @@ class Settings():
         self.initialyze_dynamic_settings()
     
     def initialyze_dynamic_settings(self):
-        self.ship_speed_factor = 1.5
+        self.ship_speed_factor = 2.5
         self.bullet_speed_factor = 1.5
         self.alien_speed_factor = 1.0
         self.difficulty = 0.5
